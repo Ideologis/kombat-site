@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Game stores</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="nav main-nav">
+            <ul>
+                <li><a href="/Web task/Homepage/homepage.html">HOME</a></li>
+                <li><a href="/Web task/STORE PAGE/store.html">STORE</a></li>
+                <li><a href="/Web task/about page/about.html">ABOUT</a></li>
+            </ul>
+            <hr />
+            <h1 class="game-name game-namelg">The Kombats</h1>
+            <button class="btn btn-header" type="button">
+                Get our Latest Album
+            </button>
+            <br />
+            <button class="btn btn-header btn-play" type="button">&#9658;</button>
+        </nav>
+    </header>
+    <!-----Section Page-->
+    <section class="container content-section">
+        <h2 class="section-header">Music</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title"> god of war</span>
+
+                <img class="shop-item-image" src="god of war.jpg" width="200px" />
+                <div class="shop-item-details">
+                    <span class="shop-item-price"> $20.00</span>
+                    <button class="btn btn-primary shop-item-button" class="btn btn-primary shop-item-button"
+                        type="button">
+                        Add to cart
+                    </button>
+                </div>
+            </div>
+            <div>
+                <div class="shop-item">
+                    <strong class="shop-item-title"> spiderman</strong>
+                </div>
+                <img class="shop-item-image" src="spiderman.jpg" width="200px" />
+                <div class="shop-item-details">
+                    <span class="shop-item-price"> $20.00</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <div>
+                    <strong class="shop-item-title"> pubg</strong>
+                </div>
+                <img class="shop-item-image" src="pubg.jpg" width="200px" />
+                <div class="shop-item-details">
+                    <span class="shop-item-price"> $20.00</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="shop-item">
+                <div>
+                    <strong class="shop-item-title"> call of duty</strong>
+                </div>
+                <img class="shop-item-image" src="call of duty.jpg" width="200px" />
+                <div class="shop-item-details">
+                    <span class="shop-item-price"> $20.00</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="shop-item">
+                <div>
+                    <strong class="shop-item-title">Lost city </strong>
+                </div>
+                <img class="shop-item-image" src="lost city.jpg" width="200px" />
+                <div class="shop-item-details">
+                    <span class="shop-item-price"> $20.00</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <!----MERCH-->
+        <section class="container content-section">
+            <h2 class="section-header">Merch</h2>
+            <div class="shop-items">
+
+                <div class="shop-item">
+                    <div>
+                        <strong class="shop-item-title"> FIFA</strong>
+                    </div>
+                    <img class="shop-item-image" src="fifa.jpg" width="200px" />
+                    <div class="shop-item-details">
+                        <span class="shop-item-price"> $20.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <div>
+                        <strong class="shop-item-title">SUB-ZERO </strong>
+                    </div>
+                    <img class="shop-item-image" src="sub-zero.jpg" width="200px" />
+                    <div class="shop-item-details">
+                        <span class="shop-item-price"> $20.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!----CART-->
+        <section class="container content-section">
+            <h2 class="section-header">Cart</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+
+                <span class="cart-price cart-header cart-column">PRICE</span>
+
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+
+                        <img class="cart-item-image" src="god of war.jpg" width="100" />
+                        <span class="cart-item-title">god of war</span>
+
+                    </div>
+
+                    <span class="cart-price cart-column">$20.00</span>
+                    <div class="cart-quantity cart-column">
+
+                        <input type="number" value="1" class="cart-quantity-input" />
+                        <button role="button" class="btn btn-danger ">REMOVE</button>
+                    </div>
+                </div>
+
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="call of duty.jpg" width="100" />
+                        <span class="cart-item-title">Call of duty</span>
+
+                    </div>
+                    <span class="cart-price cart-column">$60.00</span>
+                    <div class="cart-quantity cart-column">
+
+                        <input type="number" value="2" class="cart-quantity-input" />
+                        <button role="button" class="btn btn-danger">REMOVE</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title"> Total</strong>
+                <span class="cart-total-price">$40.00</span>
+            </div>
+            -
+            <a href="/Bootstrap task/bootstrap.html">
+
+                <button class="btn btn-primary btn-purchase" role="button">PURCHASE</button>
+            </a>
+
+        </section>
+        <!----Footer page-->
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="section-header">The Kombat</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://youtube.com" target="_blank">
+                            <img src="youtube.png.png" width="50px" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://showmax.com" target="_blank">
+                            <img src="showmax.png.png" width="50px" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://netflix.com" target="_blank">
+                            <img src="netflix.png.png" width="50px" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        </div>
+    </section>
+</body>
+
+</html>

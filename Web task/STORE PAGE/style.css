@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: antiquewhite;
+  background-blend-mode:hard-light;
+  background-image: url(blur.jpg);
+  background-size: cover;
+}
+.nav ul {
+  margin: 0;
+}
+.nav li {
+  display: inline;
+}
+.nav a {
+  display: inline-block;
+  padding: 0.5em;
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(225, 225, 225, 0.3);
+}
+.main-nav li {
+  padding: 0 5%;
+}
+.nav a:hover {
+  background-color: rgba(225, 225, 225, 0.3);
+}
+.main-header {
+  background-color: rgba(0, 0, 0, 0.8);
+  background-blend-mode: multiply;
+  background-image: url(fifa.jpg);
+  background-size: cover;
+  padding-bottom: 30px;
+}
+.game-name {
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.67em;
+  cursor: pointer;
+}
+.btn-header {
+  margin: 0.5em 15% 2em 15%;
+  color: white;
+  border-radius: 0;
+  border: 2px solid #2d9cdb;
+  background-color: rgba(225, 225, 225, 0.1);
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.btn-header:hover {
+  background-color: rgba(225, 225, 225, 0.3);
+}
+.btn-play {
+  display: block;
+  margin: 0 auto;
+  color: #2d9cdb;
+  font-size: 2em;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+}
+.btn-primary {
+  color: white;
+  background-color: #59a9c4;
+  border: none;
+  border-radius: 0.3em;
+  font-weight: bold;
+}
+.btn-primary:hover {
+    background-color: #0b2d41;
+}
+.content-section {
+  margin: 1em;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+.section-header {
+  font-family: "Metal Mania", cursive;
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+  font-size: 2.5em;
+}
+.shop-item{
+    margin:30px;
+}
+.shop-item-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color:#333;
+    margin-bottom: 15px;
+}
+.shop-item-image{
+    height: 140px;
+}
+.shop-item-details{
+    display: flex;
+   align-items: center;
+    padding: 5px;
+}
+.shop-item-price{
+    flex-grow:1;
+    color:#333;
+}
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cart-header{
+    font-weight:bold ;
+    font-size:1.2em;
+    color:#333;
+}
+.cart-column{
+  display: flex;
+  align-items: center;
+ border-bottom:  1px solid black;
+ margin-right: 1.5em;
+ padding-bottom: 10px;
+ margin-top:10px;
+
+}
+.cart-row{
+    display: flex;
+
+}
+.cart-item{
+width:45%;
+flex-direction: column;
+
+}
+  .cart-price{
+width:20%;
+font-weight: bold;
+
+  }
+.cart-quantity{
+width:90%
+}
+.cart-item-title {
+  color: #333;
+  margin-left: .5em;
+ font-weight: bold;
+}
+
+.cart-item-image{
+  width:100px;
+  height: auto;
+  border-radius: 10px;
+}
+.btn-danger{
+  color:white;
+  background-color: #EB5757;
+  border:none;
+  border-radius: .3em;
+  font-weight: bold;
+}
+.btn-danger:hover{
+ background-color: #cc4c4c;
+
+}
+.cart-quantity-input{
+  height: 34px;
+  width:50px;
+  border-radius: 5px;
+  border:1px solid #56ccf2;
+  background-color: #eee;
+  color: #333;
+  padding:0;
+  text-align:center;
+  font-size:1.2em;
+  margin-right: 25px;
+}
+.cart-row:last-child{
+  border-bottom: 1px solid black;
+}
+.cart-row:last-child .cart-column{
+  border:none;
+}
+.cart-total{
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.cart-total-title{
+  font-weight: bold;
+  font-size:1.5em;
+  color:black;
+  margin-right:20px;
+}
+.cart-total-price{
+  color:#333;
+  font-size:1.1em;
+
+}
+.btn-purchase{
+  display: block;
+  margin: 40px auto 80px auto;
+  font-size :1.75em;
+  
+}
+.container .content-section a{
+  text-decoration: none;
+}
+
+.main-footer{
+  background-color: #56ccf2;
+  color: white;
+  padding: .25em 0;
+}
+.main-footer-container{
+  display: flex;
+  align-items: center;
+}
+.main-footer-container ul{
+  flex-grow: 1;
+  text-align: end;
+}
+.footer-nav li{
+  width:30px;
+  height:30px;
+}
